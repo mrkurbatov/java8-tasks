@@ -1,14 +1,7 @@
-# java8-tasks
-A number of practical tasks for Java 8 Stream API, lambdas &amp; Optional API.
+# Stream API tasks
+Набор практических задач с использованием Java Stream API, lambdas &amp; Optional API.
 
-In this training you should provide implementation for some classes, 
-composing an e-shop. 
+- Пакет `org.volgatech.javacore.streams.model` содержит классы доменной модели такие как `Order`, `Customer` и `Product`
 
-- Package `org.volgatech.javacore.streams.model` contains domain model classes, such as `Order`, `Customer` and `Product`
-
-- Package `org.volgatech.javacore.streams.tasks` contains task classes with missing implementation
-for some of the methods. This includes:
-  - `org.volgatech.javacore.streams.tasks.OrderStats` - implement methods
-  to collect statistical information about customers and orders of the shop using Stream API
-
+- Пакет `org.volgatech.javacore.streams.tasks` содержит классы с пустыми методами, которые необходимо реализовать.
   
